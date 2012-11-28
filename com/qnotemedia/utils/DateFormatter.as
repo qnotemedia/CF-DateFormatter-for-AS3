@@ -5,7 +5,7 @@ package com.politico.utils {
 		var date:Date = new Date();
 		var str:String = "Today's date is " + DateFormat.toCFdateFormat(date,"mmm d");
 	*/
-	public class DateFormat {
+	public class DateFormatter {
 		private static var monthNames:Array = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
 		private static var dayNames:Array = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
 		
